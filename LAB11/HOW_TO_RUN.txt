@@ -1,0 +1,88 @@
+================================================================================
+ SARDAR VALLABHBHAI NATIONAL INSTITUTE OF TECHNOLOGY, SURAT
+ COMPUTER SCIENCE & ENGINEERING DEPARTMENT
+ CS359: Artificial Intelligence for Robotics — Lab Assignment 11
+ Artificial Potential Field (APF) Approach
+ QUICK EXECUTION GUIDE
+================================================================================
+
+All scripts and files are located entirely inside:
+  ~/GAZEBO/LAB11/
+
+--------------------------------------------------------------------------------
+ 1. QUICKEST WAY: RUN ALL 5 ASSIGNMENTS AT ONCE (PYTHON)
+--------------------------------------------------------------------------------
+Open a terminal and run:
+  cd ~/GAZEBO/LAB11
+  python3 run_all.py
+
+What this does:
+  - Executes Assignment 1 through Assignment 5 sequentially.
+  - Outputs the simulation trajectory and convergence statistics in terminal.
+  - Generates high-resolution figures for each assignment inside ~/GAZEBO/LAB11/plots/
+  - Generates the master comparison figure: plots/lab11_master_overview.png
+  - Prints a comprehensive performance metric table.
+
+--------------------------------------------------------------------------------
+ 2. RUN INDIVIDUAL ASSIGNMENTS (PYTHON)
+--------------------------------------------------------------------------------
+• Assignment 1 (Autonomous Robot Navigation to Delivery Station):
+  cd ~/GAZEBO/LAB11
+  python3 assignment1_delivery_station.py
+  -> Output: plots/assignment1_result.png
+
+• Assignment 2 (Robot Navigation with Static Storage Racks):
+  cd ~/GAZEBO/LAB11
+  python3 assignment2_static_obstacles.py
+  -> Output: plots/assignment2_result.png
+
+• Assignment 3 (Robot Navigation with Moving Obstacle):
+  cd ~/GAZEBO/LAB11
+  python3 assignment3_moving_obstacle.py
+  -> Output: plots/assignment3_result.png
+
+• Assignment 4 (Cooperative Navigation of Three Agents):
+  cd ~/GAZEBO/LAB11
+  python3 assignment4_cooperative_three_agents.py
+  -> Output: plots/assignment4_result.png
+
+• Assignment 5 (Five-Agent Chain Formation & Following):
+  cd ~/GAZEBO/LAB11
+  python3 assignment5_five_agent_chain.py
+  -> Output: plots/assignment5_result.png
+
+--------------------------------------------------------------------------------
+ 3. RUN IN MATLAB / GNU OCTAVE
+--------------------------------------------------------------------------------
+If running in MATLAB or Octave:
+  1. Open MATLAB and change current folder to:
+     ~/GAZEBO/LAB11/
+  2. To run the baseline reference sample code from the professor's sheet:
+     sample_code_from_sheet
+  3. To run all assignments:
+     run_all_matlab
+  4. Or run any individual assignment:
+     assignment1_delivery_station
+     assignment2_static_obstacles
+     assignment3_moving_obstacle
+     assignment4_cooperative_three_agents
+     assignment5_five_agent_chain
+
+--------------------------------------------------------------------------------
+ 4. OUTPUT ARTIFACTS AND PLOTS LOCATION
+--------------------------------------------------------------------------------
+All output figures are saved in:
+  ~/GAZEBO/LAB11/plots/
+    ├── assignment1_result.png      (Potential surface & distance-to-goal)
+    ├── assignment2_result.png      (Rack avoidance trajectory & clearance)
+    ├── assignment3_result.png      (Moving obstacle avoidance & safety margin)
+    ├── assignment4_result.png      (3-agent coordination & distance history)
+    ├── assignment5_result.png      (5-agent chain convoy formation & gaps)
+    └── lab11_master_overview.png   (Master 5-panel comparative dashboard)
+
+Detailed technical documentation and lab report:
+  ~/GAZEBO/LAB11/README.md
+  ~/GAZEBO/LAB11/LAB_11_REPORT.md
+  ~/GAZEBO/LAB11/LAB_11_EXPLANATION_AND_CODE_WALKTHROUGH.md
+================================================================================
+
