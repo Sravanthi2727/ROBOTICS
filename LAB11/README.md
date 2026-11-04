@@ -1,7 +1,7 @@
 # CS359: Artificial Intelligence for Robotics — Lab Assignment 11
 **Department of Computer Science & Engineering**  
 **Sardar Vallabhbhai National Institute of Technology (SVNIT), Surat**  
-**B.Tech. (CSE) IIIrd Year**
+**B.Tech. (CSE) III Year**
 
 ---
 
@@ -45,7 +45,7 @@ Both **Python** (executable with automated matplotlib graphics & metrics compila
 ├── HOW_TO_RUN.txt                               # Quick execution instructions
 ├── README.md                                    # This documentation
 ├── LAB_11_REPORT.md                             # Comprehensive academic lab report
-└── LAB_11_DEEP_EXPLANATION_AND_CODE_WALKTHROUGH.md # Line-by-line block explanation of all code
+└── LAB_11_EXPLANATION_AND_CODE_WALKTHROUGH.md # Line-by-line block explanation of all code
 ```
 
 ---
